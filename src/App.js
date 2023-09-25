@@ -88,7 +88,7 @@ function App() {
     <RightNav />
      <Routes>
 
-      <Route element={<PrivateComponent />}>
+     
      <Route path="/" element={<Home/>}>Home</Route>
       {/* New SMS pages*/}
      <Route path="/newsms" element={<NewSMS/>}/>
@@ -168,7 +168,7 @@ function App() {
     <Route path="/LoginHistory" element={<LoginHistory/>}/>
     <Route path="/logout" element={<Logout/>}/>
     <Route path="/*" element={<NotFound/>} />
- </Route>
+
    
    {/* Login Form*/}
    {/* <Route path="/Login" element={<Login/>}/>
