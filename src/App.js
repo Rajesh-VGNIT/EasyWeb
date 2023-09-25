@@ -171,8 +171,8 @@ function App() {
  </Route>
    
    {/* Login Form*/}
-   <Route path="/Login" element={<Login/>}/>
-   <Route path="/register" element={<Register/>}/>
+   {/* <Route path="/Login" element={<Login/>}/>
+   <Route path="/register" element={<Register/>}/> */}
    
     
     </Routes>
