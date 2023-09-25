@@ -1,0 +1,81 @@
+
+.register {
+    width: 400px;
+    margin-left: 18%;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.register > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+.register > .button {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+.handler1 input{
+    margin-top: 15px;
+    border: 1.5px solid rgb(144, 22, 22);
+    border-radius: 3px;
+    width: 17rem;
+    height: 40px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: brown;
+}
+.handler2 input{
+    margin-top: 15px;
+    border: 1.5px solid rgb(144, 22, 22);
+    border-radius: 3px;
+    width: 17rem;
+    height: 40px;
+    font-size: 1rem;
+    color: black;  
+}
+/* ================Media Query================== */
+@media (max-width: 768px) {
+    .log1_right1 label{
+        margin-left: 20px;
+    }
+    .handler1 input {
+        width: 24.3rem !important;
+        margin-left: 20px;
+    }
+    .handler2 input {
+        width: 24.3rem !important;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 1024px) {
+    .log1_right1 label{
+        margin-left: 20px;
+    }
+    .handler1 input {
+        width: 24.3rem !important;
+        margin-left: 20px;
+    }
+    .handler2 input {
+        width: 24.3rem !important;
+        margin-left: 20px;
+    }
+}

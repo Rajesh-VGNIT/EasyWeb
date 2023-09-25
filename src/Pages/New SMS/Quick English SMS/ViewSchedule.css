@@ -1,0 +1,46 @@
+.viewSch1{
+    margin-left: 18%;
+}
+
+.viewSch2{
+    margin-top: -20px;
+    overflow: scroll;
+}
+.viewSch2 table{
+    padding-left: 10px;
+    margin-top: 30px;
+    width: 60%;
+    height: 20px;
+    border-collapse: collapse;
+  }
+
+  tr:nth-of-type(odd){
+    color: #333;
+    background-color: #fff;
+  }
+  tr:nth-of-type(even){
+    background-color: gray;
+    color:#fff;
+  }
+
+  th{
+    background-color: rgb(36, 32, 32);
+    color: #fff;
+    /* font-weight: 800; */
+    font-size: 15px;
+  }
+
+  td,th{
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  /* ===================media Query======================== */
+@media (max-width: 768px) {
+  .viewSch2{
+    overflow-y: scroll;
+}
+.viewSch2::-webkit-scrollbar{
+  display: none;
+}
+}

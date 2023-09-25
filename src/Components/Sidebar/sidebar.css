@@ -1,0 +1,95 @@
+#new_sms{
+  border: 2px solid black;
+  background: #fff;
+  color: black;
+  font-size: 10px
+}
+.sitt{
+  margin-top:15px ;
+}
+.sidenav---sidenav---_2tBP {
+  /* position:fixed; */
+  top: 0.7rem;
+  bottom: 0;
+  left: 0.7rem;
+  border-radius:10px;
+  z-index: 1006;
+  min-width: 64px;
+  height: 1560px;
+  background: #fff;
+  transition: min-width 0.2s;
+}
+.sidenav---sidenav-toggle---1KRjR {
+  position: relative;
+  float: left;
+  width: 54px;
+  height: 54px;
+  /* border-radius: 0.7rem; */
+  padding: 0;
+  margin-left: 6px;
+  margin-top: 6px;
+  background-color: #909090;
+  border: 0;
+  /* border-radius: 0; */
+  cursor: pointer;
+}
+.sidenav---sidenav---_2tBP.sidenav---expanded---1KdUL .sidenav---sidenav-toggle---1KRjR .sidenav---icon-bar---u1f02 {
+  width: 20px;
+}
+.sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ- > .sidenav---navitem---9uL5T .sidenav---navicon---3gCRo > *, .sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ- > .sidenav---navitem---9uL5T .sidenav---navtext---1AE_f > * {
+  color:#909090;
+}
+.sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ-:hover > .sidenav---navitem---9uL5T .sidenav---navicon---3gCRo > *, .sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ-:hover > .sidenav---navitem---9uL5T .sidenav---navtext---1AE_f > *, .sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ-.sidenav---highlighted---oUx9u > .sidenav---navitem---9uL5T .sidenav---navicon---3gCRo > *, .sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ-.sidenav---highlighted---oUx9u > .sidenav---navitem---9uL5T .sidenav---navtext---1AE_f > * {
+  color: #909090;
+}
+/* .sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ- > .sidenav---navitem---9uL5T .sidenav---navicon---3gCRo > *, .sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ- > .sidenav---navitem---9uL5T .sidenav---navtext---1AE_f > *:hover {
+  color: #909090;
+} */
+.sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ- > .sidenav---navitem---9uL5T:hover {
+  position: relative;
+  display: block;
+  line-height: 50px;
+  height: 50px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #909090;
+  font-size: 17px;
+  cursor: pointer;
+}
+.sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ- > .sidenav---navitem---9uL5T {
+  position: relative;
+  display: block;
+  line-height: 50px;
+  height: 50px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #878895;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.sid2 a.active{
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(146, 6, 6);
+  border-bottom: 3px solid red;
+  /* background-color: red; */
+  padding-bottom: 6px; 
+}
+
+.sidenav---sidenav---_2tBP.sidenav---expanded---1KdUL {
+  min-width: 215px;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+.sharp{
+  border: 2px solid red;
+  width: 3rem;
+  padding-top: 5px;
+  height: 2rem;
+}
+
+

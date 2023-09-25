@@ -1,0 +1,56 @@
+.rightNav{
+    width: 19%;
+    background-color: #ffffff;
+    position: relative;
+    height: 240vh;
+    display: flex;
+    gap: 10px;
+    float: right;
+    margin-top:-146px;
+    margin-right: 10px;
+    padding: 3rem 1rem;
+    outline: none;
+}
+.rightNav select{
+    border: none;
+    background-color: none;
+    outline: none;
+}
+.dropdown button{
+    width: 160px;
+    outline: none;
+}
+.rightNav .icon-user{
+    border: 3px solid black;
+    position: relative;
+    border-radius: 50%;
+    margin-top: -5px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    background: #fff;
+}
+/* =====================Media Query========================= */
+@media (max-width: 768px) {
+    .rightNav{
+        display:block;
+    }
+    .dropdown{
+        margin-left: -10px;
+    }
+    .dropdown button{
+        width: 133px;
+        outline: none;
+    }
+}
+/* =====================Media Query========================= */
+@media (max-width: 1024px) {
+    .dropdown button {
+        display: block;
+        width: 123px;
+        margin-left: -20px;
+        outline: none;
+    }
+}
+
